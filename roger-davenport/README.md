@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-I needed to change all of the 'cost' to 'let' inside of the for loops. Also where there needed to be new values assigned to variables. Whenever a variable needs to have its value changed we need to use 'let'. 
+I needed to change all of the 'cost' to 'let' inside of the for loops. Also where there needed to be new values assigned to variables. Whenever a variable needs to have its value changed we need to use 'let'.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+It seems like it is much easier to code using template literal notation. I'll definitely be using it from now on. 
