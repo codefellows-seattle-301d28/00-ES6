@@ -16,7 +16,7 @@ Follow these instructions carefully and in order.
 10. Now find all concatenations in the code and convert them into template literal notation. DONE
 11. Reload the browser to ensure that the code works as expected. DONE
 12. **Save the code, and do a Git "add" and "commit".** DONE
-13. Answer the following questions:
+13. Answer the following questions: DONE
 
 ---
 
