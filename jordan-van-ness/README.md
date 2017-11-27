@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+I needed to convert const to let when the value was not going to change. So it seems like const is for variables that I want to set once and always have be the same, let is for variables I want to use in a possibly temporary or dynamic way, and var is for more general usage as it has more scope than let.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+It went fairly easy once I found documentation online about how it is used. I certainly think I'll be using template literal notation from now on, as it seems a lot more straightforward, especially for things like adding white space.
