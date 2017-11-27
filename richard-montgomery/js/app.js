@@ -36,7 +36,7 @@ function displayPics(){
   }
   //console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
-  // Uncaught ReferenceError: rando is not defined. I think because rando is scoped to the while loop and only exists in that loop part of the function.
+  // Uncaught ReferenceError: rando is not defined. I think because rando is scoped to the while loop and only exists in that block of the function.
   console.log(viewed)
 
   // To the DOM and beyond!
