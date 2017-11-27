@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+ Both can be used as variable declarations with one distinct difference. const (for constant) cannot be changed later and let can (although in is locally scoped.)
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+Literal notation seems a lot easier and I don't think I will be using normal concatenations any more. The transition is pretty seemless.
