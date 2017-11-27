@@ -22,7 +22,7 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+I needed to change all of the 'cost' to 'let' inside of the for loops. Also where there needed to be new values assigned to variables. Whenever a variable needs to have its value changed we need to use 'let'. 
 
 ---
 
