@@ -1,18 +1,18 @@
 'use strict';
 
-let names = ['bag', 'banana', 'bathroom', 'boots', 'breakfast', 'bubblegum', 'chair', 'cthulhu', 'dog-duck', 'dragon', 'pen', 'pet-sweep', 'scissors', 'shark', 'sweep', 'tauntaun', 'unicorn', 'usb', 'water-can', 'wine-glass'];
+const names = ['bag', 'banana', 'bathroom', 'boots', 'breakfast', 'bubblegum', 'chair', 'cthulhu', 'dog-duck', 'dragon', 'pen', 'pet-sweep', 'scissors', 'shark', 'sweep', 'tauntaun', 'unicorn', 'usb', 'water-can', 'wine-glass'];
 
 let allProducts = [];
-let container = document.getElementById('image_container');
-let viewed = [];
-let labels = [];
-let pics = [document.getElementById('left'),
+const container = document.getElementById('image_container');
+const viewed = [];
+const labels = [];
+const pics = [document.getElementById('left'),
                 document.getElementById('center'), //eslint-disable-line
                 document.getElementById('right')]; //eslint-disable-line
-let list = document.getElementById('productlist');
+const list = document.getElementById('productlist');
 let totalClicks = 0;
-let views = [];
-let votes = [];
+const views = [];
+const votes = [];
 
 function Product(name) {
   this.name = name;
@@ -29,19 +29,19 @@ function makeRandom() {
 function displayPics(){
   // roll for three random indexes
   while(viewed.length < 6){
-    let rando = makeRandom();
+    const rando = makeRandom();
     while(!viewed.includes(rando)){
       viewed.push(rando);
     }
   }
   //console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
-  // let allows you to declare variables that are limited in scope to the block, statement, or expression on which it is used. Var defines a variable globally, or locally to an entire function regardless of block scope. That's why it was giving an error!
+  // let allows you to declare variables that are limited in scope to the block, statement, or expression on which it is used. This is unlike the var keyword, which defines a variable globally, or locally to an entire function regardless of block scope
   console.log(viewed)
 
   // To the DOM and beyond!
   for (let i = 0; i < 3; i++){
-    let temp = viewed.shift();
+    const temp = viewed.shift();
     pics[i].src = allProducts[temp].path;
     pics[i].id = allProducts[temp].name;
     allProducts[temp].views += 1;
