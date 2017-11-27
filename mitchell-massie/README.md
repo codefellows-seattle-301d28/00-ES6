@@ -4,10 +4,10 @@
 
 Follow these instructions carefully and in order.
 
-1. Open the HTML file in the browser to ensure that it works.
-2. Turn all `var` variable declarations into `let`.
-3. After you do, there will be one error. Find that line in the code, delete that line and respond to the adjacent TODO item.
-4. Return to the browser to ensure that the code works again.
+1. Open the HTML file in the browser to ensure that it works. DONE
+2. Turn all `var` variable declarations into `let`. DONE
+3. After you do, there will be one error. Find that line in the code, delete that line and respond to the adjacent TODO item. DONE
+4. Return to the browser to ensure that the code works again. DONE
 5. **Save the code, and do a Git "add" and "commit".**
 6. Now, in the code, convert all `let` variable declarations into `const`.
 7. Bugs will erupt everywhere. Debug by using the error messages in the browser console, turning `const` declarations back into `let` where necessary. Expect there to be some back-and-forth between your code editor and your browser.
