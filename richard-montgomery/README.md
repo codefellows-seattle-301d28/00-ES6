@@ -22,7 +22,7 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+As far as my understanding goes, let and const have block scope which means it's only scoped to the parent it's in. Mm... let and const variables can only be declared once... although, let variables can be updated and const variables cannot. Const variables are eternal.
 
 ---
 
