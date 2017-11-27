@@ -27,4 +27,4 @@ let allows you to declare variables that are limited in scope to the block, stat
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+It was a new concept for me and now I see the value for it. I will try to practice it as much as possible to be able to use it from now on!
