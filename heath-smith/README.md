@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+i had to convert the allProducts and totalClicks. because they either tried to be changed later in the code. once the const is set. it can not be changed later on by a counter or a push. yes i think.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+i think i understand it and i will try and use for for a bit to get the hang of it. am sure it will help in the long run. 
