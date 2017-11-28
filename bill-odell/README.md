@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+Const needed to be converted into let when the variable was changed from it's original form. In the FOR loops let needed to be used because the variable was being altered from 1.. 2.. 3.. etc. It also needed to be let for TotalClicks because that was being parsed into a string to be stored locally. Const variables cannot be altered. 
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+Yes template literal notation is much easier than the old concatenation. I had a feeling there was an easier system than we were using and I'm glad we found it :)
